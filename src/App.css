@@ -36,4 +36,6 @@
   width: 97%;
   border-radius: 32px;
   background-color: var(--glass);
+
+  grid-template-columns: 11rem auto 21rem;
 }

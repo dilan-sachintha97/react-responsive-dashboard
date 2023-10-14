@@ -1,0 +1,43 @@
+.sideBar{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    transition: all 300ms ease;
+    border: 1px solid blue;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    font-size: 22px;
+    font-weight: 700;
+    gap: 16px;
+    /* border: 1px solid red; */
+}
+
+.logo>img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.logo>span>span{
+    color: var(--pink);
+}
+
+/* menu */
+.menu{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.menuItem{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid red;
+}
