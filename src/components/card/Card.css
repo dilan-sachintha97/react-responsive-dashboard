@@ -68,6 +68,7 @@
   height: 70vh;
   z-index: 9;
   left: 13rem;
+  /* top: 13rem; */
   border-radius: 1rem;
   display: flex;
   align-items: center;
