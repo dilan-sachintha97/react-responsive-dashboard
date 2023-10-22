@@ -1,6 +1,6 @@
 import { cardData } from '../../data/Data'
 import Card from '../card/Card'
-import './Card.css'
+import './Cards.css'
 
 const Cards = () => {
   return (
@@ -9,12 +9,12 @@ const Cards = () => {
             cardData?.map((data,index)=>(
                 <div key={index} className="parentContainer">
                     <Card
-                        // title={data.title}
-                        // color={data.color}
-                        // barValue={data.barValue}
-                        // value={data.value}
-                        // png={data.png}
-                        // series={data.series}
+                        title={data.title}
+                        color={data.color}
+                        barValue={data.barValue}
+                        value={data.value}
+                        png={data.png}
+                        series={data.series}
                     />
                 </div>
             ))

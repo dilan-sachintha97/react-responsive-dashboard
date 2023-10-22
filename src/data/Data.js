@@ -27,7 +27,7 @@ export const cardData =[
             boxShadow:"0px 10px 20px 0px #e0c6f5"
         },
         barValue:70,
-        value:"25,970",
+        value:"$25,970",
         png:UilUsdSquare,
         series:[{
             name:"Sales",
@@ -42,7 +42,7 @@ export const cardData =[
             boxShadow:"0px 10px 20px 0px #FDC0C7"
         },
         barValue:80,
-        value:"24,970",
+        value:"$24,970",
         png:UilMoneyWithdrawal,
         series:[{
             name:"Revenue",
@@ -53,11 +53,11 @@ export const cardData =[
     {
         title:"Expensive",
         color:{
-            backGround:"linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
-            boxShadow:"0px 10px 20px 0px #FDC0C7"
+            backGround:"linear-gradient(180deg, #fc6076 0%, #ff9a44 100%)",
+            boxShadow:"0px 10px 20px 0px ##b8f694"
         },
         barValue:60,
-        value:"4,970",
+        value:"$4,970",
         png:UilClipboardAlt,
         series:[{
             name:"Expenses",
